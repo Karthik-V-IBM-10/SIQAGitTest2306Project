@@ -16,6 +16,14 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2068
+- serviceName: project.siqagittest2306.integrations:childFS
+  packages:
+  - name: SIQAGitTest2306Project
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2068
 - serviceName: project.siqagittest2306.integrations:deepclonetest
   packages:
   - name: SIQAGitTest2306Project
@@ -32,3 +40,7 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2068
+- serviceName: project.siqagittest2306.integrations:parentFS
+  packages:
+  - name: SIQAGitTest2306Project
+    version: "1.0"
