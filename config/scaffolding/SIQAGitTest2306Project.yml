@@ -8,6 +8,10 @@ packages:
   gitUsername: Karthik-V-IBM-10
   gitBranch: main
 services:
+- serviceName: project.siqagittest2306.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:DBInsert
+  packages:
+  - name: SIQAGitTest2306Project
+    version: "1.0"
 - serviceName: project.siqagittest2306.integrations:AlertsCRTandERT
   packages:
   - name: SIQAGitTest2306Project
@@ -16,6 +20,10 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2068
+- serviceName: project.siqagittest2306.integrations:SIQAAdapterFlow
+  packages:
+  - name: SIQAGitTest2306Project
+    version: "1.0"
 - serviceName: project.siqagittest2306.integrations:childFS
   packages:
   - name: SIQAGitTest2306Project
